@@ -4,8 +4,8 @@
         <title>Ejemplos HTML5</title>
     </head>
     <body>
-        <h1>Inicio de Sesion</h1>
-        <form>
+        <h1 id="titulo-principal">Inicio de Sesion</h1>
+        <form id="formulario-login">
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required><br><br>
             <label for="email">Correo Electrónico:</label>
@@ -14,5 +14,36 @@
             <input type="password" id="password" name="password" required><br><br>
             <input type="submit" value="Iniciar Sesion">
         </form>
+
+        <h2 id="titulo-tabla">Tabla Agregada</h2>
+        <table id="tabla-contenedor">
+            <tr>
+                <th class="encabezado-nombre">Nombre</th>
+                <th class="encabezado-edad">Edad</th>
+                <th class="encabezado-ciudad">Ciudad</th>
+            </tr>
+            <tr>
+                <td class="dato-nombre1">Jose</td>
+                <td class="dato-edad1">22</td>
+                <td class="dato-ciudad1">Tampico</td>
+            </tr>
+            <tr>
+                <td class="dato-nombre2">Cristina</td>
+                <td class="dato-edad2">20</td>
+                <td class="dato-ciudad2">Lima</td>
+            </tr>
+        </table>
+
+        <h2 id="titulo-descripcion">Descripción de Ejemplo</h2>
+        <p id="parrafo-descripcion">Este es un ejemplo agregando un pequeño párrafo 
+            en HTML, el cual, se visualiza en el navegador web
+        </p>
+
+        <h2 id="titulo-lista">Lista de Ejemplo</h2>
+        <ol id="contenedor-lista">
+            <li class="elemento1">Agregar 3 elementos</li>
+            <li class="elemento2">Asignar identificadores o clases</li>
+            <li class="elemento3">Revisar cambios</li>
+        </ol>
     </body>
 </html>
